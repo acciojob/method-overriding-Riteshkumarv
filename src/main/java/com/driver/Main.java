@@ -6,11 +6,12 @@ public class Main {
          obj.meth();
 
          B obj1 = new B();
-         obj1.meth();
+         obj.meth();
+
         }
     static class A{
         String meth(){
-            return "Invoked method from class A";
+            return "Invoking method from class A";
         }
     }
     static class B extends A {
